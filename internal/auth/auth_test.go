@@ -33,8 +33,8 @@ func TestGetAPIKey(t *testing.T) {
 			headers: http.Header{
 				"Authorization": []string{"ApiKey 12345"}, // Correct format
 			},
-			expectedAPIKey: "123445", // The expected API key
-			expectError:    false,    // No error should occur here
+			expectedAPIKey: "12345", // The expected API key
+			expectError:    false,   // No error should occur here
 		},
 	}
 
