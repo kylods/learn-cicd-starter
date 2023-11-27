@@ -26,5 +26,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Check Go formatting
+      - name: Go formatting
         run: test -z $(go fmt ./...)
